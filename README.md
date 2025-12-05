@@ -13,12 +13,14 @@ A multilingual AI-powered study buddy that explains concepts like a best friend 
 Juggie Learn is an AI-driven educational assistant designed to help students understand study concepts in a simple, friendly, and relatable way. The system uses Gemini Flash 2.0 for generating answers and Murf AI TTS for producing clear voice narration in multiple Indian and international languages.
 
 The goal of the project is to create a fun, student-friendly AI that:
+```
 
 ->Explains answers casually (not like a textbook)
 ->Supports Indian language scripts
 ->Generates audio responses for quick listening
 ->Works with mark-based answer length
 ->Helps with last-minute exam preparation
+```
 
 
 ## Features

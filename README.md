@@ -22,9 +22,11 @@ The goal of the project is to create a fun, student-friendly AI that:
 
 
 ## Features
+
 🔹 AI-Powered Q&A Generation
 Uses Google Gemini Flash 2.0 to generate smart and simplified answers.
 Automatically adjusts answer length based on selected marks (1, 2, 3, 5, or 8).
+
 🔹 Multilingual Output
 Supports multiple Indian and international languages:
 
@@ -36,14 +38,17 @@ Supports multiple Indian and international languages:
 ->Japanese
 ->Korean
 ->and more…
+
 🔹 Friendly Conversational Style
 ->Answers are generated in a friendly, student-style tone.
 ->No textbook jargon.
 ->Uses relatable examples.
+
 🔹 High-Quality Voice Output
 ->Uses Murf AI TTS to convert answers into natural-sounding speech.
 ->Automatically splits long answers and merges audio safely.
 ->Provides a downloadable MP3 file.
+
 🔹 Lightweight & Cloud Deployable
 ->Fully deployable on Streamlit Cloud
 ->No heavy ML libraries required
@@ -53,21 +58,29 @@ Supports multiple Indian and international languages:
 ## 🧰 Requirements
 
 ## Backend / Runtime
+```
 ->Python 3.10 (recommended for Streamlit Cloud)
 ->Streamlit for UI rendering
 ->Gemini API key (stored securely in Streamlit Secrets)
 ->Murf API key (also stored securely)
+```
+
 ## Python Dependencies
+```
 ->streamlit
 ->google-generativeai
 ->murf
 ->deep-translator
 ->requests
 ->base64
+```
+
 ## Development Environment
+```
 ->VS Code or PyCharm
 ->Git + GitHub for version control
 ->Basic internet connectivity for API access
+```
 
 ## System Architecture
 User Input → Gemini Prompt → AI Answer → Language Translation → Murf TTS → Audio Merge → Final Output (Text + MP3)
@@ -84,18 +97,19 @@ Flow Breakdown:
 
 ## 📤 Sample Outputs
 ## Output 1 – AI Written Answer
-``
+
+
 Clean paragraph
 Student-friendly explanation
 Uses selected language script
-```
+
 
 ## Output 2 – Voice Output
-```
+
 Smooth, natural voice
 Multi-part answers merged automatically
 Downloadable MP3 file (Juggie_full_audio.mp3)
-```
+`
 
 ## 🎯 Impact
 Juggie Learn helps students by:
@@ -117,8 +131,6 @@ This project encourages accessible education, especially for rural or regional-l
 2.Murf AI Documentation
 3.Streamlit Official Documentation
 
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
 

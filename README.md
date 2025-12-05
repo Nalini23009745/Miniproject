@@ -29,7 +29,7 @@ Automatically adjusts answer length based on selected marks (1, 2, 3, 5, or 8).
 
 🔹 Multilingual Output
 Supports multiple Indian and international languages:
-
+```
 ->Tamil
 ->Hindi
 ->Bengali
@@ -38,21 +38,29 @@ Supports multiple Indian and international languages:
 ->Japanese
 ->Korean
 ->and more…
+```
+
 
 🔹 Friendly Conversational Style
+```
 ->Answers are generated in a friendly, student-style tone.
 ->No textbook jargon.
 ->Uses relatable examples.
+```
 
 🔹 High-Quality Voice Output
+```
 ->Uses Murf AI TTS to convert answers into natural-sounding speech.
 ->Automatically splits long answers and merges audio safely.
 ->Provides a downloadable MP3 file.
+```
 
 🔹 Lightweight & Cloud Deployable
+```
 ->Fully deployable on Streamlit Cloud
 ->No heavy ML libraries required
 ->Works smoothly on free hosting
+```
 
 
 ## 🧰 Requirements
@@ -136,6 +144,7 @@ This project encourages accessible education, especially for rural or regional-l
 
 ## MY DEPLOYMENT LINK
 Click this link to view the deployed project https://juggie-learn-smart-study-assistant-jx5pamndmdacb5yqybdzbg.streamlit.app/
+
 
 ## Result/Output:
 

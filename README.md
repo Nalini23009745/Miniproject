@@ -73,31 +73,43 @@ Supports multiple Indian and international languages:
 User Input → Gemini Prompt → AI Answer → Language Translation → Murf TTS → Audio Merge → Final Output (Text + MP3)
 
 Flow Breakdown:
+```
 1.Student enters topic, question, language, and marks.
 2.Gemini Flash generates the answer based on marks.
 3.Deep Translator converts answer into chosen language.
 4.Murf TTS converts text into natural voice chunks.
 5.MP3 chunks are merged without ffmpeg (safe concatenation).
 6.Output displayed with downloadable audio.
+```
 
 ## 📤 Sample Outputs
 ## Output 1 – AI Written Answer
+``
 Clean paragraph
 Student-friendly explanation
 Uses selected language script
+```
+
 ## Output 2 – Voice Output
+```
 Smooth, natural voice
 Multi-part answers merged automatically
 Downloadable MP3 file (Juggie_full_audio.mp3)
+```
 
 ## 🎯 Impact
 Juggie Learn helps students by:
 
 1.Making study answers easy to understand
+
 2.Reducing exam stress
+
 3.Supporting Indian regional languages
+
 4.Making studying accessible with voice content
+
 5.Providing quick revision with conversational explanations
+
 This project encourages accessible education, especially for rural or regional-language students.
 
 ## 📚 References
@@ -114,6 +126,7 @@ This project encourages accessible education, especially for rural or regional-l
 Click this link to view the deployed project https://juggie-learn-smart-study-assistant-jx5pamndmdacb5yqybdzbg.streamlit.app/
 
 ## Result/Output:
+
 ## INPUT SECTION alt text
 
 ![alt text](output1.png)
@@ -137,8 +150,13 @@ MURF_API_KEY = "YOUR_KEY"
 4.Run the project:
 streamlit run app.py
 ## 🚀 Deployment (Streamlit Cloud)
+
 1.Push your code to GitHub.
+
 2.Go to https://share.streamlit.io
+
 3.Select your repository.
+
 4.Add GEMINI_API_KEY and MURF_API_KEY under “Secrets”.
+
 5.Deploy with Python version set to 3.10.
